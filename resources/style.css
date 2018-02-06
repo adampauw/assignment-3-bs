@@ -1,0 +1,129 @@
+body{
+    width:960px;
+    line-height: 1.4rem;
+
+}
+html{
+    font-size:18px;
+    font-family:Helvetica;
+}
+
+/* header */
+
+header{
+    background-image:url('./NZ.jpg');
+    height:30rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top:1rem;
+}
+
+
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.2;
+    font-family: 'Julius Sans One', sans-serif;
+  }
+
+h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+nav{
+    background-color:#11262747;
+    color:#aad8c9;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color:#aad8c9;
+    
+}
+nav img{
+    margin-left:2rem;
+    margin-right:1rem;
+    height:1.5rem;
+}
+
+nav div{
+    display:flex;
+    align-items:center;
+}
+
+nav ul{
+    margin-right:1rem;
+    color: #aad8c9;
+}
+
+nav li{
+    padding:0 1rem;
+    display:inline;
+    font-family: 'Unica One', cursive;
+}
+
+nav span{
+    text-decoration: underline;
+}
+
+#resume{
+    padding-left: 2rem;
+    font-size: 1.8rem;
+    color: lightcyan;
+    font-family: 'Unica One', cursive;
+    text-decoration: none;
+}
+
+#banner{
+    padding-top: 3rem;
+}
+#banner h1{
+    text-align: center;
+    font-size: 3rem;
+    color: lightcyan;
+}
+
+#banner h2{
+    text-align: center;
+    font-size: 2rem;
+    color: lightcyan;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#banner span{
+    text-align: center;
+    display: block;
+    font-family: 'Unica One', cursive;
+    color:#aad8c9;
+    text-decoration: none;
+}
+
+#details span{
+    text-align: left;
+    display: block;
+    font-family: 'Julius Sans One', sans-serif;
+    color:lightcyan;
+    text-decoration: none;
+    padding: 0rem 2rem;
+    width: 40%;
+}
+
+#details h3{
+    text-align: left;
+    display: block;
+    font-family: 'Unica One', cursive;
+    color: lightcyan;
+    text-decoration: underline;
+    padding: 2rem 2rem 0rem 2rem;}
+
+#details ul{
+    list-style-type: none;
+    color:lightcyan;
+    font-family: 'Julius Sans One', sans-serif;
+}
